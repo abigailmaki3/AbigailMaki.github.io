@@ -1,0 +1,50 @@
+
+
+body{
+    background-color:lightcyan;}
+
+
+#test{
+    z-index: -1;
+    position:fixed;
+    
+    color: coral;
+    padding-right: 500px;
+    font-size: 20px;
+    
+}
+div {
+  width: 100px;
+  height: 300px;
+  align-content: center;
+}
+
+#recLeft{
+      float:left;
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    font-family: fantasy
+    color:white;
+  
+}
+
+
+#recRight{
+    width: 800px;
+    height: 200px;
+    background-color: red;
+    float:right;
+}
+h1{
+   font-family: monospace;
+    color :aqua;  
+}
+
+p{
+    
+    font-size: 80px;
+    color:aquamarine;
+    
+}
+
