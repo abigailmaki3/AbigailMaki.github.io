@@ -1,92 +1,139 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
-        <nav>
-    <ul>
-        
-        
-<li><a href = "pages/a1/data/index1.html">assignment1</a></li>  
-        
-        
-<li><a href = "pages/a2/data/index.html">assignment2</a></li> 
-         
-        
-                
-<li><a href = "pages/a3/data/index.html">assignment3</a></li> 
-         
-        
-                         
-<li><a href = "pages/a4/data/index.html">assignment4</a></li> 
-         
-                             
-<li><a href = "pages/a5/data/index.html">assignment5</a></li> 
-         
-                                     
-<li><a href = "pages/a6/data/index.html">assignment6</a></li> 
-         
-                                             
-<li><a href = "pages/a7/data/assets/index.html">assignment7</a></li> 
-         
-    </a>
-    </a></li> 
-   
-    </ul>
-    
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-auto-rows: minmax(100px, auto);
+            grid-gap: 1em;
+            justify-items: stretch;
+            align-items: stretch;
+        }
+
+        .wrapper>div {
+            background: #eee;
+            padding: 1em;
+        }
+
+        .wrapper>div:nth-child(odd) {
+            background: #ddd;
+        }
+
+        .box1 {
+            align-self: start;
+            grid-column: 1/3;
+            grid-row: 1/3;
+        }
+
+        .box2 {
+
+            align-self: end;
+            grid-column: 3;
+            grid-row: 1/3;
 
 
-            
-    </nav>
- <link rel="stylesheet"
-    href="stylesheet.css">
+        }
+
+        .box3 {
+            grid-column: 2/4;
+            grid-row: 3;
+        }
+
+        .box4 {
+            grid-column: 1;
+            grid-row: 2/4;
+
+        }
+
+    </style>
+
 </head>
+
 <body>
-    
-<h1> <p> ABIGAIL MAKI</p></h1>  
-    
-<div id = "colunm1">
-   <h2> ABOUT ME</h2>
-<h3>My name is Abigail Maki. I studied fine art for several years. I have a background in mechanics and fabrication and now I am entering the world of coding to merge these skill sets together using P5 Js, which is a truncated version of Java Script.   </h3>
+
+
+</body>
+
+</html>
+
+<html>
+
+</head>
+
+
+<body>
+
+
+    <div class="wrapper">
+
+        <div class="box<h1>1</h1> box1">
+            <li><a href="index3.html"></a></li>
+        </div>
+
+
+
+        <div class="box box2">
+            <li><a href="index1.html"></a>
+                <h>
+                    My name is Abigail Maki. I studied fine art for several years. I have a background in mechanics and fabrication and now I am entering the world of coding to merge these skill sets together using P5 Js, which is a truncated version of Java Script.
+            </li>
+        </div>
+
+
+        //////****/////////////
+
+        <div class="box box3">
+            <li>3<a href="direct/sketch3.html">3</a></li>
+        </div>
+        ////////***/////////////////
+
+        <div class="box box4">
+            <li><a href="direct/sketch4.html">2</a></li>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="direct/index2.html">2</a></li>
+
+
+                <li><a href="direct/index1.html">1</a></li>
+
+
+
+
+            </ul>
+
+
+
+
+
+
+        </nav>
+        <link rel="stylesheet" href="stylesheet.css">
+
+
+        <br>
+        <br>
+        <h1>
+            <p> Abigail Maki </p>
+        </h1>
+
+
+
+        <p> <img src="pop.jpg"></p>
     </div>
-  
-<p>  <img src="pop.jpg"></p>
-    </div>
-  
-    
-
-
-    
-    <div id = "colunm2">
-
-    </div>
-    
-        <div id = "colunm3">
-    THIS IS POP ART
-art isisslskdlhflkdhflkdsjflksdjflsjdflkjdslkfjsdlkfjlkdsjflksjflkjdsfljdslfjdslkfjlkdsjflkdsjflksdfljdslkfjdslkjflkdsjflkjdslkfjslkdjfldsj
-    </div>
-    
-    
-    
-        <div id = "colunm4">
-    THIS IS POP ART
-art isisslskdlhflkdhflkdsjflksdjflsjdflkjdslkfjsdlkfjlkdsjflksjflkjdsfljdslfjdslkfjlkdsjflkdsjflksdfljdslkfjdslkjflkdsjflkjdslkfjslkdjfldsj
-    </div>
-    <div id= "test">  
-        
-    <h2>THIS IS POP ART</h2>
-    
-    </div>
-
-    
-    <h2>this is  a cat.<br>
-    the cat is lazy </h2>
-    <h3> this is a picture</h3>
-</div>
-    
-    </body>
 
 
 
 
 
-    </html>
+
+</body>
+
+
+
+
+
+</html>
