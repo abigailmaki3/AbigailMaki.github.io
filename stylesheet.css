@@ -1,7 +1,7 @@
 body {
     opacity: 50%;
     background: rgb(2, 0, 36);
-/*    background: linear-gradient(338deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 104, 1) 35%, rgba(0, 212, 255, 0.7267856971890319) 98%);*/
+    /*    background: linear-gradient(338deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 104, 1) 35%, rgba(0, 212, 255, 0.7267856971890319) 98%);*/
 }
 
 nav {
@@ -273,7 +273,7 @@ font-family: fantasy color:white;
 p {
 
     font-size: 80px;
-    color: aquamarine;
+    color: blueviolet;
     float: center
 }
 
