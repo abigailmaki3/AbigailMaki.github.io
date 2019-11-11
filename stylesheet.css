@@ -13,19 +13,19 @@ nav {
     padding: 14px 25px;
     opacity: 100%;
     text-decoration: none;
-/*    display: inline-block;*/
+    /*    display: inline-block;*/
     z-index: 100;
-    position: r;
+    position: right;
     top: 10px;
     left: 10px;
     padding: 10px;
-    float: inherit;
+    float: right;
 }
 
 
 li {
     display: block;
-    width 400px;
+    width 40px;
     color: pink;
     text-decoration: none;
     padding: 8px 16px;
@@ -91,7 +91,7 @@ h3 {
 
 h4 {
     font-family: sans-serif;
-    font-weight: 20;
+    font-weight: 10;
     font-style: normal;
     font-size: 2em;
     color: paleturquoise;
