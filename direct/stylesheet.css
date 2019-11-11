@@ -1,185 +1,95 @@
 body {
     opacity: 50%;
     background: rgb(2, 0, 36);
-    /*    background: linear-gradient(338deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 104, 1) 35%, rgba(0, 212, 255, 0.7267856971890319) 98%);*/
+    background: linear-gradient(338deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 104, 1) 35%, rgba(0, 212, 255, 0.7267856971890319) 98%);
 }
 
 nav {
-    background-color: #fc07d7;
-    font-color: white;
-    color: white;
+    opacity: 50%;
+    background: rgb(2, 0, 36);
+
+    color: hotpink;
     padding: 14px 25px;
     opacity: 70%;
     text-decoration: none;
     display: inline-block;
-    z-index: 1;
+    z-index: 10;
     position: fixed;
-    top: 0px;
-    left: 0px;
-    padding: 0px;
+    top: 100px;
+    left: 100px;
+    padding: 10px;
+
+}
 
 
-
-    ul {
-
-        background-color: grey;
-    }
-
-    li {
-        display: block;
-        width 400px;
-        color: white;
-        text-decoration: none;
-        padding: 8px 16px;
-
-
-    }
-
-    * {
-        margin: 0;
-        padding: 0;
-    }
-
-    body {
-        background-color: #f1f0ef;
-    }
-
-    .wrapper {
-        width: 1366px;
-        margin: 0 auto;
-        overflow: hidden;
-    }
-
-    nav {
-        height: 50px;
-        background-color: #5B82B3;
-    }
-
-    nav h2 {
-        color: #FFF;
-        padding-left: 20px;
-        padding-top: 7px;
-        float: left;
-    }
-
-    ul {
-        width: 300px;
-        list-style-type: none;
-        float: right;
-        margin-right: 20px;
-    }
-
-    li {
-        height: 47px;
-        float: left;
-    }
-
-    nav a {
-        font-family: acumin-pro-semi-condensed, sans-serif;
-        font-weight: 600;
-        font-style: normal;
-        font-size: .75em;
-        text-decoration: none;
-        line-height: 50px;
-        padding: 0 15px;
-        color: #FFF;
-    }
-
-    li:hover {
-        background-color: #B2883B;
-        border-bottom: 3px solid #FFF;
-        border-bottom-style: inset;
-    }
-
-    header {
-        height: 275px;
-        background-color: #ddd;
-        margin-bottom: 40px;
-        background-image: url(images/base.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center -380px;
-    }
-
-    h1 {
-        font-family: freight-text-pro, sans-serif;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 4em;
-        color: white;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    h2 {
-        font-family: acumin-pro-semi-condensed, sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        color: #5B82B3;
-        margin-bottom: 15px;
-    }
-
-    p {
-        font-family: freight-text-pro, serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: .85em;
-        line-height: 140%;
-        margin-bottom: 20px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+li {
+    display: block;
+    width 400px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
 
 
 }
+
+
+
+body {
+    background-color: #f1f0ef;
+}
+
+wrapper {
+    width: 1366px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+h1 {
+    font-family: freight-text-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4em;
+    color: white;
+    text-align: right;
+    margin-bottom: 200px;
+    margin-left: auto;
+}
+
+p {
+    font-family: freight-text-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .85em;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: serif;
+    font-weight: 700;
+    font-size: 30em;
+    font-style: normal;
+    color: white;
+    margin-bottom: 15px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
 
 
 }
 
 div {
-    width: 100px;
-    height: 300px;
+    width: 700px;
+    height: 500px;
     align-content: center;
 }
 
-#{
- float:left;
-padding-left: 200px;
-width: 400px;
-height: 200px;
-background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
-font-family: fantasy color:white;
-
-}
-
-p {
-
-    font-size: 80px;
-    color: purple;
-    float: center
-}
 
 
 
-
-#recRight {
-    position: relative float:right;
-}
-
-width: 800px;
+width: 100px;
 height: 200px;
 font-family: fantasy color:white;
