@@ -28,7 +28,7 @@ var sz = [];
 
 
 function preload(){
-    img1 = loadImage ("data/wav.jpg");
+    img1 = loadImage ("data/before.jpg");
     img2 = loadImage ("data/after.jpg");
       colorTable = loadTable("assets/colors.csv");
 }
@@ -46,7 +46,7 @@ function setup() {
     for(var i = 0; i < colorTable.getRowCount(); i++){
         
         names[i] = colorTable.getString(i,0);
-        hueVal[i] = colorTable.getNum(i, 1,2,3);
+        hueVal[i] = colorTable.getNum(i, 1);
         myRating[i] = colorTable.getNum(i, 2);
         sz[i] = map(myRating[i], 199, 10, 10, 10);
     }
@@ -72,7 +72,7 @@ function draw() {
         
    
         
-        fill(255);
+        fill(0);
         textSize(50);
         text(names[i], 75 * (i+2), 50,100);
     
@@ -104,14 +104,12 @@ function draw() {
         fill(desiredColor2);
     }
     
-//       push();
-//        translate(PI,0.1);
-//        rotate(x,y,89,98)
-//    ellipse(x,y, circleSize, circleSize);
-//    (x,y, circleSize);
-//    currentCircle++;
-//        pop();
-//    
+       
+    ellipse(x,y, circleSize, circleSize);
+    (x,y, circleSize);
+    currentCircle++;
+        
+    
         stroke(255,0);
     ellipse(y,circleSize, x, circleSize);
     (x, y,y, circleSize, circleSize);
@@ -130,13 +128,15 @@ function draw() {
 ellipse(y,x,circleSize*5);
     (x,y,y,circleSize);
     currentCircle;
-       
+                 
+ellipse(y,x, circleSize*5);
+    (x,y,circleSize);
+    currentCircle;              
   
      
         
         
     }
-        
     
     push();
         translate(PI,0.9);
