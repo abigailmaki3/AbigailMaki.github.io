@@ -1,7 +1,7 @@
 div {
     opacity: 100%;
     background: rgb(2, 0, 36);
-    background: linear-gradient(338deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 104, 1) 35%, rgba(0, 212, 255, 0.7267856971890319) 98%);
+    background: linear-gradient(3600deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 104, 1) 35%, rgba(255, 212, 50, 0.7267856971890319) 98%);
 
 }
 
@@ -29,6 +29,7 @@ li {
     color: pink;
     text-decoration: none;
     padding: 8px 16px;
+    
 
 
 }
@@ -38,7 +39,7 @@ li {
 
 
 h1 {
-    font-family: freight-text-pro, sans-serif;
+    font-family: freight-text-pro, cursive;
     font-weight: 10;
     font-style: normal;
     font-size: 10em;
@@ -93,9 +94,9 @@ h4 {
     font-family: sans-serif;
     font-weight: 10;
     font-style: normal;
-    font-size: 2em;
+    font-size: 30px;
     color: paleturquoise;
-    text-align: ;
+    text-align: center;
     margin-bottom: 2px;
     margin-left: auto;
 }
